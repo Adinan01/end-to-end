@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/html' });
-  res.end('<h1>Hello from my DevOps Project!</h1><p>Deployed by Muhammad Adhinan</p>');
+  res.end('<h1>Hello from my DevOps Project - CI/CD Updated!</h1><p>Deployed by Muhammad Adhinan</p>');
 });
 
 server.listen(3000, () => {
